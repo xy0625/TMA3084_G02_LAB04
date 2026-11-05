@@ -14,10 +14,7 @@ class FriesScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset(
-              'assets/images/fries.png',
-              width: 200,
-            ),
+            Image.asset('assets/images/fries.png', width: 200),
             const Text(
               'Box of Fries is a serving of hot and crispy '
               'fries.',
