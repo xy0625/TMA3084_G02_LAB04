@@ -14,10 +14,7 @@ class VegetablePizzaScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset(
-              'assets/images/pizza_1.png',
-              width: 200,
-            ),
+            Image.asset('assets/images/pizza_1.png', width: 200),
             const Text(
               'Vegetable Pizza is a pizza with mixed '
               'vegetable mix on top of it.',

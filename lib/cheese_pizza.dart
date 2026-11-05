@@ -14,10 +14,7 @@ class CheesePizzaScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset(
-              'assets/images/pizza_2.png',
-              width: 200,
-            ),
+            Image.asset('assets/images/pizza_2.png', width: 200),
             const Text(
               'Cheese Pizza is a pizza with plenty of melted '
               'cheese on top of it.',
