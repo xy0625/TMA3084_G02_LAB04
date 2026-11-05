@@ -19,6 +19,13 @@ class FriesScreen extends StatelessWidget {
               'Box of Fries is a serving of hot and crispy '
               'fries.',
             ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, 'summary');
+              },
+              child: const Text('View Order Summary'),
+            ),
           ],
         ),
       ),
