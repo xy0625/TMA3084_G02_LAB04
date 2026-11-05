@@ -5,6 +5,7 @@ import 'cheese_pizza.dart';
 import 'fries.dart';
 import 'menu.dart';
 import 'vegetable_pizza.dart';
+import 'order_summary.dart';
 
 void main() => runApp(const Lab04());
 
@@ -20,6 +21,7 @@ class Lab04 extends StatelessWidget {
         'vegetable': (context) => const VegetablePizzaScreen(),
         'cheese': (context) => const CheesePizzaScreen(),
         'fries': (context) => const FriesScreen(),
+        'summary': (context) => const OrderSummaryScreen(),
       },
     );
   }
